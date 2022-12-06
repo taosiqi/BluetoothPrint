@@ -1,10 +1,11 @@
 <template>
   <div>
-<!-- capture="camera"-->
-    <input type="file" name="file" class="upload-file" @change="uploadFile" ref="frontFile" accept="image/*" />
+    拍照：<input type="file"  @change="uploadFile" accept="image/*" capture="camera"/>
+    <p></p>
+    相册选择<input type="file" @change="uploadFile" accept="image/*" />
+    <p></p>
     <img :src="src" alt="" />
   </div>
-
 </template>
 
 <script setup>

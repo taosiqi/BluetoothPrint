@@ -1,11 +1,12 @@
 <template>
   <div>
-<!-- capture="environment"-->
-    <input type="file" name="file" class="upload-file" @change="uploadFile" ref="frontFile" accept="video/*" />
+    录像：<input type="file"  @change="uploadFile" ref="frontFile" accept="video/*" capture="environment"/>
+    <p></p>
+    相册选择<input type="file"  @change="uploadFile" ref="frontFile" accept="video/*"/>
+    <p></p>
+    <video controls="controls" :src="src" style="height: 300px"></video>
     <br>
-    <div>部分浏览器不能blob，但能预览src</div>
-    <video controls="controls" :src="src" style="height: auto"></video>
-<!--    <video controls="controls" src="https://static-1253419794.file.myqcloud.com/qiniu/%E5%AE%A0%E7%89%A9%E5%8C%BB%E9%99%A2%E6%BC%94%E7%A4%BA.MP4"></video>-->
+<!-- <video controls="controls" src="https://static-1253419794.file.myqcloud.com/qiniu/%E5%AE%A0%E7%89%A9%E5%8C%BB%E9%99%A2%E6%BC%94%E7%A4%BA.MP4"></video>-->
     <br>
   </div>
 

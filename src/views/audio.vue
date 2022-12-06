@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>安卓钉钉-无法录音</p>
     <input type="button" @click="startRec()" value="开始录音">
     <div>{{status}}</div>
     <p></p>
