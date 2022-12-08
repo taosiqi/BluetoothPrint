@@ -3,8 +3,8 @@
 </template>
 
 <script setup>
-import PrinterJobs from './printerjobs.js'
-import printerUtil from './printerutil.js'
+import PrinterJobs from '../assets/printerjobs.js'
+import printerUtil from '../assets/printerutil.js'
 import {ref} from 'vue'
 
 let printCharacteristic = ref(null)
