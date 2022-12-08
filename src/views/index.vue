@@ -6,7 +6,7 @@
   <div @click="router.push('video')">JS-去拍视频</div>
   <div @click="router.push('audio')">JS-去录音</div>
 
-  JsSdk均是调用的安卓IOS原生功能，仅在企业微信以及钉钉环境有效
+  JsSdk均是调用的安卓IOS原生功能，仅在移动端 企业微信、钉钉环境有效
   <div><a href="https://open.work.weixin.qq.com/api/jsapidemo#menu-image">企业微信JsSdk-拍照</a></div>
   <div><a href="https://open.work.weixin.qq.com/api/jsapidemo#menu-voice">企业微信JsSdk-录音</a></div>
   <div><a href=" https://open.work.weixin.qq.com/api/jsapidemo#menu-scan">企业微信JsSdk-扫码</a></div>
